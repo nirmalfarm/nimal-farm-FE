@@ -152,8 +152,8 @@ import { motion } from "framer-motion";
 import { menuData } from "../API/GetApi";
 
 import vegImage from "../assets/menu1.avif";
-import vegThaliImage from "../assets/veg thali.avif";
-import nonVegImage from "../assets/non-Veg.jpg";
+import vegThaliImage from "../assets/vegThali.avif";
+import nonVegImage from "../assets/nonVeg.jpg";
 import nonVegAltImage from "../assets/menu2.jpg";
 import beverageImage from "../assets/menu3.jpg";
 import nonVegBeverageImage from "../assets/omlete.jpeg";
