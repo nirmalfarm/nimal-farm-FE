@@ -1,16 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import gallery1 from '../assets/gallery1.jpeg';
+import gallery2 from '../assets/gallery2.jpeg';
+import gallery3 from '../assets/gallery3.jpeg';
+import gallery4 from '../assets/gallery4.jpeg';
+import gallery5 from '../assets/gallery5.jpeg';
+import gallery6 from '../assets/gallery6.jpeg';
+import home3 from '../assets/home3.jpg';
+import gallery8 from '../assets/gallery8.jpeg';
 
 const images = [
-  { src: 'src/assets/gallery1.jpeg', label: 'Farm House View' },
-  { src: 'src/assets/gallery2.jpeg', label: 'Farm House View' },
-  { src: 'src/assets/gallery3.jpeg', label: 'Dining View' },
-  { src: 'src/assets/gallery4.jpeg', label: 'Farm House View' },
-  { src: 'src/assets/gallery5.jpeg', label: 'Room View' },
-  { src: 'src/assets/gallery6.jpeg', label: 'Kitchen View' },
-  { src: 'src/assets/home3.jpg', label: 'Indoor Games View' },
-  { src: 'src/assets/gallery8.jpeg', label: 'Swimming Pool View' },
+  { src: gallery1, label: 'Farm House View' },
+  { src: gallery2, label: 'Farm House View' },
+  { src: gallery3, label: 'Dining View' },
+  { src: gallery4, label: 'Farm House View' },
+  { src: gallery5, label: 'Room View' },
+  { src: gallery6, label: 'Kitchen View' },
+  { src: home3, label: 'Indoor Games View' },
+  { src: gallery8, label: 'Swimming Pool View' },
 ];
 
 export default function Gallery() {
