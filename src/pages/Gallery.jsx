@@ -3,14 +3,14 @@ import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const images = [
-  { src: 'src/assets/Gallery1.jpeg', label: 'Farm House View' },
-  { src: 'src/assets/Gallery2.jpeg', label: 'Farm House View' },
-  { src: 'src/assets/Gallery3.jpeg', label: 'Dining View' },
-  { src: 'src/assets/Gallery4.jpeg', label: 'Farm House View' },
-  { src: 'src/assets/Gallery5.jpeg', label: 'Room View' },
-  { src: 'src/assets/Gallery6.jpeg', label: 'Kitchen View' },
+  { src: 'src/assets/gallery1.jpeg', label: 'Farm House View' },
+  { src: 'src/assets/gallery2.jpeg', label: 'Farm House View' },
+  { src: 'src/assets/gallery3.jpeg', label: 'Dining View' },
+  { src: 'src/assets/gallery4.jpeg', label: 'Farm House View' },
+  { src: 'src/assets/gallery5.jpeg', label: 'Room View' },
+  { src: 'src/assets/gallery6.jpeg', label: 'Kitchen View' },
   { src: 'src/assets/home3.jpg', label: 'Indoor Games View' },
-  { src: 'src/assets/Gallery8.jpeg', label: 'Swimming Pool View' },
+  { src: 'src/assets/gallery8.jpeg', label: 'Swimming Pool View' },
 ];
 
 export default function Gallery() {
